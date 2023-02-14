@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    grid-template-rows: 125px 75px 300px 300px 200px 150px;
+    grid-template-areas: 
+    "head head head head head"
+    "nav nav nav nav nav"
+    ". s1 s4 s4 ."
+    ". s2 s4 s4 ."
+    ". s3 s3 s3 ."
+    "foot foot foot foot foot"
+    ;
+    
+}
+
+.section{
+    background-color: #bbb;
+    margin:5px;
+}
+
+#header{
+    grid-area: head;
+    background-color: #ccc;
+}
+
+#nav{
+    grid-area: nav;
+    background-color: #bbb;
+    margin-bottom: 5px;
+}
+
+#footer{
+    grid-area: foot;
+    background-color: #bbb;
+    margin-top: 5px;
+}
+
+#section-1{
+    grid-area: s1;
+}
+
+#section-2{
+    grid-area: s2;
+}
+
+#section-3{
+    grid-area: s3;
+}
+
+#section-4{
+    grid-area: s4;
+}
+
+#section-5{
+    grid-area: s5;
+    display: none;
+}
+
+#section-6{
+    grid-area: s6;
+    display: none;
+}
+
