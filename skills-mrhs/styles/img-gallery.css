@@ -14,6 +14,7 @@
 
 .img{
     background-color: #eee;
+    object-fit: cover;
 }
 
 #img1{
