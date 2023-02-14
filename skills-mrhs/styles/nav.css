@@ -50,7 +50,10 @@
    color: tomato;
  }
  
- 
+ nav{
+    width:100px;
+    height:100px;
+ }
  #menuToggle input
  {
    display: block;
