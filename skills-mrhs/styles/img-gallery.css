@@ -76,3 +76,8 @@
 #img10{
     grid-area: img10;
 }
+
+.img{
+    background-color: #eee;
+    object-fit: cover;
+}
