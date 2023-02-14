@@ -20,7 +20,7 @@
    color: #cdcdcd;
    font-family: "Avenir Next", "Avenir", sans-serif;
  }
- 
+
  #menuToggle
  {
    display: block;
@@ -34,8 +34,9 @@
    
    -webkit-user-select: none;
    user-select: none;
+   color: #232323;
  }
- 
+
  #menuToggle a
  {
    text-decoration: none;
@@ -78,7 +79,7 @@
    margin-bottom: 5px;
    position: relative;
    
-   background: #cdcdcd;
+   background: #232323;
    border-radius: 3px;
    
    z-index: 1;
