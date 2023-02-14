@@ -1,3 +1,57 @@
-#section-4{
-    
+#section-4 > .img-gallery{
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    grid-template-rows: 150px 150px 150px 150px ;
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img5 img5 img6"
+    "img7 img4 img8 img6"
+    "img9 img9 img8 img10"
+    ;
+    grid-gap:10px;
+    margin: 10px;
+}
+
+.img{
+    background-color: #eee;
+}
+
+#img1{
+    grid-area: img1;
+}
+
+#img2{
+    grid-area: img2;
+}
+
+#img3{
+    grid-area: img3;
+}
+
+#img4{
+    grid-area: img4;
+}
+
+#img5{
+    grid-area: img5;
+}
+
+#img6{
+    grid-area: img6;
+}
+
+#img7{
+    grid-area: img7;
+}
+
+#img8{
+    grid-area: img8;
+}
+
+#img9{
+    grid-area: img9;
+}
+
+#img10{
+    grid-area: img10;
 }

@@ -3,37 +3,42 @@ body{
     margin: 0;
     display: grid;
     grid-template-columns: 10% 1fr 1fr 1fr 10%;
-    grid-template-rows: 125px 75px 300px 300px 200px 150px;
+    grid-template-rows: 125px 75px 300px 1fr 200px 150px;
     grid-template-areas: 
     "head head head head head"
     "nav nav nav nav nav"
-    ". s1 s4 s4 ."
-    ". s2 s4 s4 ."
+    ". s1 s1 s4 ."
+    ". s2 s2 s4 ."
     ". s3 s3 s3 ."
     "foot foot foot foot foot"
     ;
-    
+    background-image: url(../images/backgrounds/background-main.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section{
-    background-color: #bbb;
+    background-color: #ddd;
     margin:5px;
 }
 
 #header{
     grid-area: head;
-    background-color: #ccc;
+    background-color: #eee;
 }
 
 #nav{
     grid-area: nav;
-    background-color: #bbb;
+    background-color: #ddd;
     margin-bottom: 5px;
 }
 
 #footer{
     grid-area: foot;
-    background-color: #bbb;
+    background-color: #ddd;
     margin-top: 5px;
 }
 
