@@ -51,8 +51,8 @@
  }
  
  nav{
-    width:110px;
-    height:127px;
+    width:300px;
+    height:auto;
  }
  #menuToggle input
  {
@@ -78,11 +78,9 @@
  {
    display: block;
    width: 100px;
-   height: 32pxpx;
+   height: 32px;
    margin-bottom: 5px;
    position: relative;
-   
-   z-index: 1;
  
  }
  
@@ -104,9 +102,9 @@
   #menuToggle input:checked{
     position: fixed;
     margin:0;
-    width:calc(100vw-300px);
+    width:calc(100vw - 250px);
     height: 100vh;
-    margin-left: 300px;
+    margin-left: 250px;
   }
 
  
@@ -115,9 +113,8 @@
    position: fixed;
    width: 200px;
    height:100svh ;
-   margin: -100px 0 0 -50px;
-   padding: 50px;
-   padding-top: 125px;
+   margin: -200px 0 0 -50px;
+   padding: 25px;
 
    
    background: #ededed;
