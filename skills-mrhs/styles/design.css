@@ -80,4 +80,11 @@
     height: 150px;
 }
 
-/**/
+/*text styles*/
+h1{
+    font-size: 4em;
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
