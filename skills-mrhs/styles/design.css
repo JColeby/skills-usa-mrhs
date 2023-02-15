@@ -1,6 +1,6 @@
 /*image styles*/
 .img{
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: #333;
     object-fit: cover;
     overflow: hidden;
     margin: 0 auto;
@@ -18,10 +18,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: opacity(0.8) brightness(0.8);
 }
 
 .img:hover img{
     transform: scale(1.15);
+   filter: opacity(1) brightness(1);
 }
 
 #img2{
@@ -77,6 +79,5 @@
     width: 160px;
     height: 150px;
 }
-
 
 /**/
