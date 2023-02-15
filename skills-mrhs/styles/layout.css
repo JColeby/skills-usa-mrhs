@@ -4,14 +4,13 @@ body{
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: 10% 1fr 1fr 1fr 10%;
-    grid-template-rows: 135px 300px 1fr 200px 150px;
+    grid-template-columns:250px 5% 1fr 1fr 1fr 5%;
+    grid-template-rows:  300px 1fr 200px 150px;
     grid-template-areas: 
-    " head head head head head"
-    " . s1 s1 s4 ."
-    " . s2 s2 s4 ."
-    " . s3 s3 s3 ."
-    " foot foot foot foot foot"
+    "head . s1 s1 s4 ."
+    "head . s2 s2 s4 ."
+    "head . s3 s3 s3 ."
+    "foot foot foot foot foot foot"
     ;
     background-image: url(../images/backgrounds/background-main.png);
     background-size: auto;
@@ -75,20 +74,14 @@ body{
 }
 
 
-/*header*/
-
-#header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .header-title{
-    padding:30px;
+    padding:5px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 10px;
+
+    margin-top: -40px;
 }
 
 .header-title div{
@@ -97,6 +90,7 @@ body{
 
 
 .logo-header{
-    height:125px;
-    margin: 5px;
+    height:100px;
+    width:200px;
+    margin: 5px 50px;
 }
