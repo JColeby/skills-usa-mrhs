@@ -80,11 +80,17 @@
     height: 150px;
 }
 
+
+/*logo styles*/
+.logo-header img{
+    width: 200px;
+    height: auto;
+}
 /*text styles*/
-h1{
+.page-head{
     font-size: 4em;
     margin: 0px;
     margin-top: 5px;
     margin-left: 15px;
-    
+    color: #343434;
 }

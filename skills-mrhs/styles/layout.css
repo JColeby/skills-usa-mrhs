@@ -22,7 +22,7 @@ body{
 }
 
 .section{
-    background-color: rgba(200, 200, 200, 0.2);
+    background-color: #fff;
 
     margin:5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
