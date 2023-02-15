@@ -74,3 +74,23 @@ body{
     display: none;
 }
 
+
+/*header*/
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title{
+    padding:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.header-title div{
+    padding:7px;
+}
