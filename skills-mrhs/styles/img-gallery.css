@@ -15,6 +15,7 @@
 .img{
     background-color: #eee;
     object-fit: cover;
+    
 }
 
 
@@ -47,32 +48,48 @@
 
 #img3{
     grid-area: img3;
+    width: 330px;
+    height: 150px;
 }
 
 #img4{
     grid-area: img4;
+    width: 160px;
+    height: 150px;
 }
 
 #img5{
     grid-area: img5;
+    width: 330px;
+    height: 150px;
 }
 
 #img6{
     grid-area: img6;
+    width: 160px;
+    height: 310px;
 }
 
 #img7{
     grid-area: img7;
+    width: 160px;
+    height: 150px;
 }
 
 #img8{
     grid-area: img8;
+    width: 160px;
+    height: 310px;
 }
 
 #img9{
     grid-area: img9;
+    width: 330px;
+    height: 150px;
 }
 
 #img10{
     grid-area: img10;
+    width: 160px;
+    height: 150px;
 }
