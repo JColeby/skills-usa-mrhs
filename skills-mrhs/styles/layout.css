@@ -98,3 +98,17 @@ body{
 #nav{
     margin-top: -10px;
 }
+
+#section-4 > .img-gallery{
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    grid-template-rows: 150px 150px 150px 150px ;
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img5 img5 img6"
+    "img7 img4 img8 img6"
+    "img9 img9 img8 img10"
+    ;
+    grid-gap:10px;
+    margin: 10px;
+}
