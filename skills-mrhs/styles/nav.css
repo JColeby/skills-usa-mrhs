@@ -81,6 +81,7 @@
    height: 32pxpx;
    margin-bottom: 5px;
    position: relative;
+   
    z-index: 1;
  
  }
@@ -103,9 +104,9 @@
   #menuToggle input:checked{
     position: fixed;
     margin:0;
-    width:calc(100vw - 300px);
+    width:calc(100vw-300px);
     height: 100vh;
-    margin-left: 305px;
+    margin-left: 300px;
   }
 
  
