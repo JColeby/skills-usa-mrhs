@@ -11,15 +11,6 @@
  * prefixes.
  */
 
- body
- {
-   margin: 0;
-   padding: 0;
-   
-   /* make it look decent enough */
-   color: #cdcdcd;
-   font-family: "Avenir Next", "Avenir", sans-serif;
- }
 
  #menuToggle
  {
@@ -40,7 +31,6 @@
  #menuToggle a
  {
    text-decoration: none;
-   color: #232323;
    
    transition: color 0.3s ease;
  }
@@ -126,7 +116,7 @@
    
 
    
-   background: #ededed;
+   background: #e4e4e4;
    list-style-type: none;
    -webkit-font-smoothing: antialiased;
    /* to stop flickering of text in safari */

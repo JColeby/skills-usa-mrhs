@@ -19,6 +19,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
 .section{
@@ -124,12 +125,14 @@ body{
     height:100vh;
     z-index: 1;
     margin-bottom: 5px;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 .logo-wrapper{
     border-bottom: 1px solid black;
     padding-bottom: 5px;
+    z-index: 1;
+    background-color: #fff;
 }
 
 @media (max-width: 1500px) {
