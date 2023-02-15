@@ -4,8 +4,8 @@ body{
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns:250px 5% 1fr 1fr 1fr 5%;
-    grid-template-rows: 20px 300px 1fr 200px 150px;
+    grid-template-columns:250px 7% 1fr 1fr 1fr 7%;
+    grid-template-rows: 30px 300px 1fr 200px 150px;
     grid-template-areas: 
     "head . s5 s5 s5 ."
     "head . s1 s1 s4 ."
@@ -24,7 +24,7 @@ body{
 .section{
     background-color: #fff;
 
-    margin:5px;
+    margin:10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     border-radius: 2px;
 }
@@ -34,7 +34,6 @@ body{
     background-color: #fff;
     margin-bottom: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    margin-bottom: 5px;
 }
 
 #nav{
@@ -48,7 +47,7 @@ body{
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     z-index: -1;
-    margin-top: 5px;
+    margin-top: 30px;
 }
 
 #section-1{
