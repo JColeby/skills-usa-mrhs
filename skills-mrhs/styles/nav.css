@@ -118,7 +118,7 @@
    position: fixed;
    width: 200px;
    height:100svh ;
-   margin: -250px 0 0 -50px;
+   margin: -212px 0 0 -50px;
    padding: 25px;
    
 
@@ -147,3 +147,5 @@
  {
    transform: none;
  }
+
+ 
