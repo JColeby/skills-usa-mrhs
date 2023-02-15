@@ -81,10 +81,17 @@
 }
 
 
-/*logo styles*/
+/*sidebar styles*/
 .logo-header img{
     width: 200px;
     height: auto;
+}
+.sidebar-link{
+    color: #232323;
+    transition: color 0.3s ease;
+}
+.sidebar-link:hover{
+    color: #e94127;
 }
 /*text styles*/
 .page-head{
