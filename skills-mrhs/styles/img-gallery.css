@@ -13,9 +13,10 @@
 }
 
 .img{
-    background-color: #eee;
+    background-color: rgba(20, 20, 20, 0.5);
     object-fit: cover;
-    
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 
@@ -23,8 +24,6 @@
     grid-area: img1;
     width: 160px;
     height: 310px;
-    overflow: hidden;
-    margin: 0 auto;
 }
 .img img{
 
@@ -42,8 +41,6 @@
     grid-area: img2;
     width: 160px;
     height: 150px;
-    overflow: hidden;
-    margin: 0 auto;
 }
 
 #img3{
