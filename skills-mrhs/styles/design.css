@@ -132,3 +132,20 @@ a:hover{
     color: #047E9F;
     font-weight: 700;
 }
+.icon-head{
+    text-align: center;
+}
+.icons-side img{
+    width: 75px;
+    height: auto;
+}
+.icons-side p{
+    font-size: 1em;
+    text-align: center;
+}
+.icons-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
