@@ -323,7 +323,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width:300px;
+    width:400px;
+    min-width: 400px;
+}
+
+.media-footer-icons i{
+    font-size: 1.5em;
+    transition: .3s;
+    color: #343434;
 }
 
 .copyright{
