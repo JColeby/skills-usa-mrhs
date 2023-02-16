@@ -300,19 +300,27 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     z-index: -1;
     margin-top: 30px;
-    padding:40px;
-}
-
-#footer > .social-media-footer i{
-   
+    padding:20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
 #footer h2{
-    margin-top:0px
+    margin:0px 5px 0px 0px;
 }
 
+.social-media-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+}
 
+.copyright{
+    width:auto;
+}
 
 
 /*map and brochure styles */
