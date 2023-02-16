@@ -175,3 +175,16 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
+label{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: 600;
+}
+.text-center{
+    margin-left: 0px;
+}
