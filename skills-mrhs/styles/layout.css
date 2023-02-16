@@ -221,6 +221,10 @@ body{
 
 #section-4{
     grid-area: s4;
+    
+}
+
+#body-home > #section-4{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,6 +238,10 @@ body{
 #section-6{
     grid-area: s6;
     display: none;
+}
+
+#body-home > #section-1 > .page-head{
+    text-align: center;
 }
 
 
@@ -358,6 +366,9 @@ body{
     margin-bottom:10px
 }
 
+#body-map > #section-1 {
+    text-align: center;
+}
 
 
 
