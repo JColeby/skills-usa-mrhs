@@ -169,7 +169,7 @@ a:hover{
     width:115px;
 }
 
-#section-2{
+#body-home > #section-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
